@@ -27,7 +27,7 @@ def print_banner():
 | $$_/ $$_/ $| $$__/ $| $$     | $$__| $| $| $$_\$$$$$$\ | $$|  \                                       
  \$$   $$   $$\$$    $| $$      \$$    $| $| $|       $$  \$$  $$                                       
   \$$$$$\$$$$  \$$$$$$ \$$       \$$$$$$$\$$\$$\$$$$$$$    \$$$$                                        
-                                                                                                        
+                                                                      ~~~~~                                  
                                                                                                         
                                                                                                         
                                                                                __                       
@@ -57,7 +57,7 @@ def main():
     
     print_banner()
     
-    # Get user input
+    # Get user input~
     string = input("Enter the string (uppercase/lowercase): ")
     digits = input("Enter the digits (0-9): ")
     symbols = input("Enter the symbols (e.g., !@#$%): ")
